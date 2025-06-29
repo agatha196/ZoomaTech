@@ -21,29 +21,30 @@ The primary goal of this initiative is to provide leadership with a real-time, s
 ## Dataset
 
 ### Data Sources
-- **Sales Transactions** — including engage date, close date, status, product, and quantity
-- **Customers** — including customer name and industry
-- **Employees** — identifying the sales rep responsible
-- **Products** — with pricing data
+The data model below is sourced from the CRM and includes engaged sales activity from the past 12 months (July 2024 to May 2025).
+- **Customers** — unique list of all customers and customer details
+- **Sales** — sale transactions of all leads including engage date, close date, status, product, and quantity
+- **Products** — unique list of all products with pricing data
+  
 ![Data Model drawio](https://github.com/user-attachments/assets/71549f47-77f4-43bc-a92b-c385cda54ec5)
 
 
 ### Key Metrics
-- **Sales Conversion Rate** = # Won Leads / # Total Leads (based on engage date)
-- **Average Days to Close** = Average time to close for **won** deals only
-- **Revenue** = Quantity × Price for won opportunities
-- **Segment Analysis** = Performance breakdown by industry, product, and rep
+- **Sales Conversion Rate** = # Won Leads / # Total Leads (based on engage date). The percentage of engaged leads that were successfully closed
+- **Average Days to Close** = Average time to close for **won** deals only. Measures the average number of days it took to close won deals, from engagement to deal closure.
+- **Revenue** = Quantity × Price. Total revenue generated from won opportunities
 
 ---
 
 ## Dashboard Features 
-[ZoomaTech Sales Dashboard Preview](https://public.tableau.com/views/Sales_17462088266400/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[ZoomaTech Sales Dashboard](https://public.tableau.com/views/Sales_17462088266400/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-- **Filters** — by sales rep, industry, product, engage date, and close date
+- **Filters** — by industry, sales rep, product
 - **Monthly Trends** — for both conversion rate and time to close
 - **Leaderboard Views** — revenue and efficiency metrics by rep and product
 - **Industry Performance** — insights into customer segment effectiveness
 - **Responsive Layout** — designed for executive visibility and drill-down exploration
+  
 ![dashboard](https://github.com/user-attachments/assets/7cead179-df19-475d-b293-fcd712963103)
 
 ---
@@ -72,22 +73,16 @@ The primary goal of this initiative is to provide leadership with a real-time, s
 ---
 
 ## Recommendations
+The following are strategic opportunties:
 
-- ###Coach Underperforming Reps with High Lead Volume
-Several reps are managing a large number of leads but converting at or below 41%, well below the firm average of 48%. Targeted coaching can help improve qualification and close rates.
-- ###Prioritize High-Converting Industry Segments
-The Medical, Marketing, and Finance sectors consistently convert above 64%, while the lowest-performing group lags at 53%. Focus marketing and outreach on proven verticals.
-- ### Double Down on Top-Performing Products
-ZoomaConnect, ZoomaMeet Pro, and ZoomaWebinars outperform other offerings in both win rate and revenue. Strategic bundling, feature expansion, or targeted promotions may increase returns further.
-- ### Reduce Deal Cycle Times in Lagging Segments
-While the overall average time to close is 69 days, some reps and segments exceed 74 days. Standardizing follow-up processes and adopting best practices from high performers can help accelerate deal velocity.
+- **Coach Underperforming Reps with High Lead Volume** - Several reps are managing a large number of leads but converting at or below 41%, well below the firm average of 48%. Targeted coaching can help improve qualification and close rates.
+- **Prioritize High-Converting Industry Segments** - The Medical, Marketing, and Finance sectors consistently convert above 64%, while the lowest-performing group lags at 53%. Focus marketing and outreach on proven verticals.
+- **Double Down on Top-Performing Products** - ZoomaConnect, ZoomaMeet Pro, and ZoomaWebinars outperform other offerings in both win rate and revenue. Strategic bundling, feature expansion, or targeted promotions may increase returns further.
+- **Reduce Deal Cycle Times in Lagging Segments** - While the overall average time to close is 69 days, some reps and segments exceed 74 days. Standardizing follow-up processes and adopting best practices from high performers can help accelerate deal velocity.
 
 ## Next Steps
+To build on this analysis, the following areas could be explored with additional or enhanced data:
 
-The recommended next steps would include:
-
-- Establishing a monthly review cadence using the dashboard during sales leadership meetings
-- Rolling out targeted coaching plans for underperforming reps based on conversion rate trends
-- Prioritizing marketing and outreach efforts in high-performing industry segments
-- Refining CRM data hygiene practices to reduce ambiguity in “engaging” and “lost” leads
-- Continuing iteration of the dashboard by adding funnel visualizations and forecast views
+- **Evaluate the impact of coaching** by tracking whether conversion rates improve for underperforming reps after targeted training.
+- **Identify high-performing lead sources** by analyzing conversion rates and deal velocity by marketing channel (e.g., email, ads, events).
+- **Build lead scoring and funnel visualizations** to help sales teams prioritize high-potential leads and monitor deal progression more effectively.
