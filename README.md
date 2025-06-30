@@ -1,9 +1,9 @@
 # ZoomaTech Sales Performance Dashboard
-**This analysis uncovers key sales trends and provides insights to improve conversion, reduce cycle time, and focus strategic efforts.**
+**This project analyzes ZoomaTech’s sales performance to uncover key trends, highlight opportunities for improvement, and help leadership make data-driven decisions to grow revenue.**
 
 ## Overview
 
-ZoomaTech is a growing provider of video calling solutions for small businesses. As ZoomaTech expands its presence in the business communications market, leadership has identified a growing need to evaluate sales effectiveness across customer industries, products, and individual sales representatives. Prior reporting methods were decentralized and operational in nature, limiting leadership's ability to surface trends, identify inefficiencies, or make data-informed strategic decisions.
+ZoomaTech is a growing provider of video calling solutions for small businesses. As ZoomaTech expands its presence in the business communications market, leadership has identified a growing need to evaluate sales effectiveness across customer industries, products, and individual sales representatives. Previous reports were scattered across teams and focused on day-to-day tasks, making it hard to spot overall patterns.
 
 To address this gap, a centralized dashboard was developed to bring together key sales performance metrics and support quarterly reviews, coaching for sales representatives, and product focus decisions.
 
@@ -14,6 +14,8 @@ The primary goal of this initiative is to provide leadership with a real-time, s
 - Track sales conversion and average time to close
 - Identify top-performing sales representatives, industries, and products
 - Use data to guide strategic planning, coaching, and resource allocation
+
+The ultimate goal is to help ZoomaTech increase revenue by using data to focus sales efforts where they perform best.
 
 ## Data Model & Sources
 
@@ -28,7 +30,7 @@ The data model below is sourced from the CRM and includes engaged sales activity
 ## Key Metrics
 The following KPIs were used to assess sales representative efficiency, product effectiveness, and sales pipeline performance across the organization.
 
-- **Sales Conversion Rate** = # Won Leads / # Total Leads (based on engage date). Measures overall sales representative effectiveness and supports benchmarking across products and industries.
+- **Sales Conversion Rate** = # Won Leads / # Total Leads (based on engage date). Helps measure how well each sales rep is doing and compare their results across teams, products, and industries.”
 - **Average Days to Close** = Average time to close for **won** deals only. Use as a benchmark for sales representative efficiency and uncover delays in the sales process.
 - **Revenue** = Quantity × Price. Track sales representative and product performance.
 
@@ -57,7 +59,7 @@ The following KPIs were used to assess sales representative efficiency, product 
 
 ### Product Performance
 - ZoomaClass and ZoomaMeet Pro accounted for the majority of closed-won revenue, performing strongly across both volume and conversion rate.
-- Products like ZoomaConnect and ZoomaWebinars underperformed and may benefit from repositioning, bundling, or closer market fit analysis.
+- Products like ZoomaConnect and ZoomaWebinars underperformed and might need better marketing, different pricing, or more research on who the product is best for.
 - The concentration of revenue in top products highlights an opportunity to streamline focus and marketing strategy.
 
 ### Time to Close
